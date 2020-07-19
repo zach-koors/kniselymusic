@@ -11,47 +11,54 @@
 <body>
 
   <!-- header -->
-  <header id="header" class="flex-row flex-around yellow-card">
-    <div>
-      <h1 class=""><a href="#">k n i s e l y</a></h1>
+  <header id="header" class="flex-column">
+    <h1 class="yellow-card space"><a href="#">k n i s e l y</a></h1>
       <nav id="nav-bar" class="flex-row flex-around">
-        <a href="#"><h3>about</h3></a>
-        <a href="#"><h3>videos</h3></a>
-        <a href="#"><h3>magnets</h3></a>
-        <a href="#"><h3>subscribe</h3></a>
+        <a id="nav-link" class="left-line" href="#">about</a>
+        <a id="nav-link" class="left-line" href="#">videos</a>
+        <a id="nav-link" class="left-line" href="#">magnets</a>
+        <a id="nav-link" class="left-line" href="#">subscribe</a>
+        <img src="" style="position:absolute;bottom:5000px;" height="" alt="n/a" id="header-img">
       </nav>
-    </div>
-    <img src="group_photo_1.jpg" height="" alt="knisely profile image" id="header-img">
-
-
   </header>
-
+  <hr>
   <main class="">
-  <!-- info -->
-  <h2 class="">a b o u t</h2>
-  <p>a columbus, oh based quintet performing original music for vibraphone, clarinet, violin, piano and keyboard</p>
+    <!-- info -->
+    <img src="group_photo_1.jpg" height="" alt="knisely profile image">
+    <h2 class="left-line">a b o u t</h2>
+    <p>a columbus, oh based quintet performing original music for vibraphone, clarinet, violin, piano and keyboard</p>
+    <hr>
 
-  <!-- videos -->
-  <h2 class="">v i d e o s</h2>
-  <iframe src="" width="" height="" id="video"></iframe>
-  <iframe src="" width="" height="" id="video"></iframe>
+    <!-- videos -->
+    <h2 class="left-line">v i d e o s</h2>
+    <iframe src="" width="" height="" id="video"></iframe>
+    <hr>
+    <iframe src="" width="" height="" id="video"></iframe>
+    <hr>
 
-  <!-- magnet photo -->
-  <h2 class="">m a g n e t s</h2>
-  <a href="#"><img src="" alt="image of knisely magnets"></a>
-  <p>we're offering a knisely magnet in exchange for a donation of any amount</p>
+    <!-- magnet photo -->
+    <h2 class="left-line">m a g n e t s</h2>
+    <a href="#"><img src="" alt="image of knisely magnets"></a>
+    <p>we're offering a knisely magnet in exchange for a donation of any amount</p>
+    <button type="button" name="magnet"><a href="">get a magnet</a></button>
 
-  <!-- email form-->
-  <h2 class="">s u b s c r i b e</h2>
-  <form id="form" class="" action="https://www.freecodecamp.com/email-submit" method="post">
-    <label for="email">email</label>
-    <input id="email" type="email" name="email" placeholder="name@website.com">
-    <button type="submit" name="submit" id="submit">submit</button>
-  </form>
-  <p>you can also contact us at <a href="mailto:knisely.music@gmail.com">knisely.music@gmail.com</a></p>
+    <hr>
 
-
+    <!-- email form-->
+    <h2 class="left-line">s u b s c r i b e</h2>
+    <form id="form" class="" action="https://www.freecodecamp.com/email-submit" method="post">
+      <div class="flex-column space">
+        <label for="email">add your email to our contact list</label>
+        <input id="email" type="email" name="email" placeholder="name@website.com">
+      </div>
+        <button type="submit" name="submit" id="submit">submit</button>
+        <hr>
+    </form>
+    <p>you can also contact us at <a href="mailto:knisely.music@gmail.com"><u>knisely.music@gmail.com</u></a></p>
+    <hr>
   </main>
-  <footer>© koors music publishing, 2020. all rights reserved.</footer>
+  <hr>
+  <footer><small>© koors music publishing, 2020. all rights reserved.</small></footer>
+  <hr class="space">
 </body>
 </html>
