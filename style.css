@@ -5,6 +5,21 @@ body{
   margin-left: auto;
   margin-right: auto;
 }
+@media (min-width: 30em) {
+  body{
+    width: 60%;
+  }
+}
+@media (min-width: 50em) {
+  body{
+    width: 40%;
+  }
+}
+@media (min-width: 75em) {
+  body{
+    width: 25%;
+  }
+}
 a{
   text-decoration: none;
   color: inherit;
