@@ -21,7 +21,7 @@ body{
   }
 }
 a{
-  text-decoration: none;
+
   color: inherit;
 }
 a:hover{
@@ -35,6 +35,7 @@ a:active{
   padding: .2em;
 }
 #nav-link{
+  text-decoration: none;
   font-weight: bold;
 }
 #nav-link:hover{
