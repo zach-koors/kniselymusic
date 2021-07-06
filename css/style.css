@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
 body{
-  font-family: sans-serif;
+  font-family: dm sans;
   font-weight: 100;
   width: 90%;
   margin-left: auto;
@@ -20,8 +22,14 @@ body{
     width: 25%;
   }
 }
+#title{
+  text-decoration: none;
+}
+h1{
+ font-family: DM Sans;
+}
 a{
-
+  text-decoration: none;
   color: inherit;
 }
 a:hover{
