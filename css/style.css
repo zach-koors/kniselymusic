@@ -40,11 +40,11 @@ a:active{
   border-left: thick solid hsl(50, 100%, 50%);
   padding: .2em;
 }
-#nav-link{
+.nav-link{
   text-decoration: none;
   font-weight: bold;
 }
-#nav-link:hover{
+.nav-link:hover{
   color: white;
   background-color: hsl(50, 100%, 50%);
   border-left-color: white;
