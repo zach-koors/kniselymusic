@@ -82,6 +82,24 @@ hr{
   background-color: hsl(50, 100%, 50%);
   border-radius: .2em;
 }
+.yellow-banner{
+  box-sizing: border-box;
+  padding: .2em;
+  color: white;
+  font-weight: 100;
+  width: 100%;
+  background-color: hsl(50, 100%, 50%);
+  border-radius: .2em;
+}
+.red-banner{
+  box-sizing: border-box;
+  padding: .2em;
+  color: white;
+  font-weight: 500;
+  width: 100%;
+  background-color: hsl(20, 100%, 50%);
+  border-radius: .2em;
+}
 .flex-row{
   display: flex;
   flex-direction: row;
