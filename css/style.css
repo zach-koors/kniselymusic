@@ -106,6 +106,9 @@ hr{
   align-items: baseline;
   flex-wrap: wrap;
 }
+.shadow{
+  box-shadow: 3px 3px 5px lightgray;
+}
 .flex-around{
   justify-content: space-between;
 }
