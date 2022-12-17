@@ -103,6 +103,8 @@ hr{
 .flex-row{
   display: flex;
   flex-direction: row;
+  align-items: baseline;
+  flex-wrap: wrap;
 }
 .flex-around{
   justify-content: space-between;
@@ -113,6 +115,15 @@ hr{
 }
 .space{
   padding-bottom: 1em;
+}
+.letter-spacing{
+  letter-spacing: .25rem;
+}
+.right{
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: flex-end;
 }
 footer{
   border-top: thin solid hsl(50, 100%, 50%);
